@@ -6,7 +6,7 @@ const signupRouter = require('./signup');
 const loginRouter = require('./login');
 
 const app = express();
-const PORT = 3000;
+const PORT = 6000;
 
 // Set up express-session (You can use other session options as needed)
 app.use(
